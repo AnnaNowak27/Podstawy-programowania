@@ -13,6 +13,8 @@ namespace Zadanie_5
             //Napisać program wczytujący promień podstawy (r) i wysokość (h) stożka i wypisujący na ekranie objętość i pole całkowite tego stożka.
             double r, h, V, Pc;
             Console.WriteLine("Wpisz r:") //Koniec zajęć
+                r = Convert.ToDouble(Console.ReadLine());
+            Con
         }
     }
 }
