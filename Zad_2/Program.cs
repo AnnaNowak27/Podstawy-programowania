@@ -14,8 +14,8 @@ namespace Zad_2
                     int i, n, wynik = 1;
                 Console.WriteLine("Podaj liczbe n: ");
                 n = Convert.ToInt32(Console.ReadLine());
-                for (i = 1; i <= n; i++)
-                    wynik = wynik * 2;
+            for (i = 1; i <= n; i++)
+                wynik *= 2;
             Console.WriteLine("2^{0} = {1}", n, wynik);
             
 
