@@ -10,7 +10,8 @@ namespace While.Zad._5
     {
         static void Main(string[] args)
         {
-            //Napisać program wczytujący od użytkownika liczbę rzeczywistą x. Wczytuj tak długo wartość zmiennej x, aż przyjmie ona wartość dodatnią. Wczytaną dodatnią wartość liczby x wypisz na ekranie.Użyj pętli do -while.
+            //Napisać program wczytujący od użytkownika liczbę rzeczywistą x.
+            //Wczytuj tak długo wartość zmiennej x, aż przyjmie ona wartość dodatnią. Wczytaną dodatnią wartość liczby x wypisz na ekranie.Użyj pętli do -while.
             int a;
             do
             {

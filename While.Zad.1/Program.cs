@@ -22,7 +22,7 @@ namespace While.Zad._1
                 if (i % 2 == 0) Console.Write("{0}, ", i);
                 i++;
                     
-            }
+            }Console.ReadKey(true);
         }
     }
 }

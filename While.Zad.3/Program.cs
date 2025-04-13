@@ -22,8 +22,8 @@ namespace While.Zad._3
                 suma += i;
                 i++;
            
-           }
-            Console.WriteLine("{0}+...{1}={2}", a, b, suma);
+            }
+            Console.WriteLine("{0}+...+{1}={2}", a, b, suma);
         }
     }
 }
