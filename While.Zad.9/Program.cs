@@ -15,12 +15,12 @@ namespace While.Zad._9
             int a, suma = 0;
             do
             {
-                Console.WriteLine("Podaj a:");
+                Console.Write("Podaj a:");
                 a = Convert.ToInt32(Console.ReadLine());
                 suma += a;
             }
             while (a != 0);
-            Console.WriteLine("Suma wynosi {0}", suma);
+            Console.WriteLine("Suma wynosi {0}.", suma);
             Console.ReadKey(true);
         }
     }

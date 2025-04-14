@@ -18,7 +18,7 @@ namespace While.Zad._1
             b = Convert.ToInt32(Console.ReadLine());
             i = a;
             while (i <= b)
-                {
+            {
                 if (i % 2 == 0) Console.Write("{0}, ", i);
                 i++;
                     
