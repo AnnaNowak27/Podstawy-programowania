@@ -13,7 +13,7 @@ namespace Zad._3
             //Napisać program wczytujący ciąg n (1<=n<=1000) liczb całkowitych, sortujący je niemalejąco i wypisujący posortowane liczby na ekranie.
             int[] tab = new int[1000];
             int i, j;
-            int n, tmp;
+            int n, t;
             Console.Write("Podaj ilość elementów tablicy n<=1000:");
             n = Convert.ToInt32(Console.ReadLine());
             for (i = 0; i < n; i++)
@@ -24,7 +24,7 @@ namespace Zad._3
             for (i=0; i<n; i++)
                 for(j=i+1; j<n; j++)
                     if (tab[i] > tab[j])
-                    { tmp = tab[i]; tab[i] = tab[j]; tab[j] = tmp; }
+                    { t = tab[i]; tab[i] = tab[j]; tab[j] = t; }
             Console.Write("Elementy tablicy:");
             for (i=0; i<n; i++)
             {
